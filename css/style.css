@@ -1,4 +1,5 @@
 /* General HTML elements */
+
 body, html {
   margin: 0;
   padding: 0;
@@ -15,6 +16,12 @@ footer {
 a:hover {
   text-decoration: none;
 }
+
+hr {
+  margin: 40px 0 40px 0;
+}
+
+/* Home Page */
 
 #video-container {
   margin: 0;
@@ -35,28 +42,14 @@ a:hover {
   color: #686868;
 }
 
-/* Dividers */
-.front-card {
-  background-image: url(../img/keys.jpeg);
-  height: 100%; 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .purple-banner {
   background-color: #89529E;
   height: 35%; 
 }
 
-.aqua-banner {
-  background-color: #49948C;
-  height: 35%; 
-}
-
-.orange-banner {
-  background-color: #EEB776;
-  height: 35%; 
+.sponsor-margin {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
 }
 
 .section-title {
@@ -81,25 +74,25 @@ a:hover {
 }
 
 /* Positioning */
+
 .row-margin {
   margin-top: 7vh;
   margin-bottom: 7vh;
 }
 
 .true-center {
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  /* width:100%; */
-  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
-.sponsor-margin {
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+.container-margin {
+  margin-top: 20px;
 }
 
 /* Icons */
+
 .icon-purple {
   margin-top: 2vh;
   margin-bottom: 2vh;
@@ -107,6 +100,7 @@ a:hover {
 }
 
 /* Events */
+
 .calendar-responsive {
   position: relative;
   height: 0;
@@ -122,23 +116,71 @@ a:hover {
   height: 90%;
 }
 
+/* credit goes to W3 schools for this overlay effect */
+.event-container {
+  position: relative;
+}
+
+.event-container:hover .event-overlay {
+  width: 100%;
+}
+
+.event-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #89529E;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.event-text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.event-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.event-margin {
+  margin-bottom: 20px;
+}
+
 /* Gallery */
+
 .my-gallery {
   width: 100%;
   padding: 0 0 40px 0;
 }
+
 .my-gallery img {
   width: 23%;
   padding: 10px;
 }
+
 .my-gallery figure {
   display: inline;
 }
+
 .my-gallery figcaption {
   display: none; 
 }
 
 /* E-Board */
+
 .contact-card {
   padding: 20px 20px 0 20px;
 }
@@ -166,7 +208,11 @@ a:hover {
   margin: 30px 0 30px 0;
 }
 
-/* footer */
+/* Footer */
+.footer-section {
+  padding-bottom: 20px;
+}
+
 .footer-list {
   list-style-type: none;
   padding: 0;
@@ -176,9 +222,11 @@ a:hover {
   margin-bottom: 20px;
 }
 
+/* Media Queries */
+
 @media screen and (min-width: 300px) {
   .section-title, .page-title {
-    font-size: 1.8rem;
+    font-size: 2.0rem;
   }
   .purple-banner {
     background-color: #89529E;
