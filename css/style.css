@@ -103,6 +103,22 @@ hr {
   color: #89529E;
 }
 
+.fa-facebook:hover {
+  color: #3B5998
+}
+
+.fa-instagram:hover {
+  color: #CD486B
+}
+
+.fa-twitter:hover {
+  color: #55ACEE
+}
+
+.fa-pinterest-p:hover {
+  color: #CB2027
+}
+
 /* Events */
 
 .calendar-responsive {
