@@ -46,9 +46,21 @@ hr {
   color: #686868;
 }
 
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #82539E;
+}
+
+.navbar-toggler {
+  outline-color: #89529E !important;
+}
+
 .purple-banner {
+  height: 25%;
   background-color: #89529E;
-  height: 35%; 
 }
 
 .sponsor-margin {
@@ -57,13 +69,14 @@ hr {
 }
 
 .section-title {
-  color: #fff;
   padding: 0 10px 0 10px;
+  color: #fff;
 }
 
 .page-title {
-  color: #89529E;
   margin: 20px 0 20px;
+  font-weight: bold;
+  color: #89529E;
 }
 
 .logo {
@@ -246,11 +259,7 @@ hr {
 
 @media screen and (min-width: 300px) {
   .section-title, .page-title {
-    font-size: 2.0rem;
-  }
-  .purple-banner {
-    background-color: #89529E;
-    height: 25%; 
+    font-size: 1.8rem;
   }
   .my-gallery img {
     width: 23%;
@@ -267,28 +276,14 @@ hr {
   .section-title, .page-title {
     font-size: 2.5rem;
   }
-  .purple-banner {
-    background-color: #89529E;
-    height: 35%; 
-  }
-  .my-gallery img {
-    width: 23%;
-  }
   .calendar-responsive {
     padding-bottom: 110%;
-  }
-  .calendar-responsive iframe {
-    height: 95%;
   }
 }
 
 @media screen and (min-width: 768px) {
   .section-title, .page-title {
     font-size: 3rem;
-  }
-  .purple-banner {
-    background-color: #89529E;
-    height: 30%; 
   }
   .my-gallery img {
     width: 24%;
@@ -305,10 +300,6 @@ hr {
   .section-title, .page-title {
     font-size: 3rem;
   }
-  .purple-banner {
-    background-color: #89529E;
-    height: 30%; 
-  }
   .my-gallery img {
     width: 24.5%;
   }
@@ -324,17 +315,10 @@ hr {
   .section-title, .page-title {
     font-size: 3.5rem;
   }
-  .purple-banner {
-    background-color: #89529E;
-    height: 35%; 
-  }
   .my-gallery img {
     width: 24.7%;
   }
   .calendar-responsive {
     padding-bottom: 70%;
-  }
-  .calendar-responsive iframe {
-    height: 90%;
   }
 }
