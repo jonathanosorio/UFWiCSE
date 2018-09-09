@@ -22,7 +22,7 @@ img {
 }
 
 hr {
-  margin: 40px 0 40px 0;
+  margin: 30px 0 30px 0;
 }
 
 /* Home Page */
@@ -64,8 +64,8 @@ hr {
 }
 
 .sponsor-margin {
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
 }
 
 .section-title {
@@ -190,6 +190,10 @@ hr {
 
 .event-margin {
   margin-bottom: 20px;
+}
+
+.year-link {
+  font-size: 40px;
 }
 
 /* Gallery */
