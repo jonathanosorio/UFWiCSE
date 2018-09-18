@@ -97,6 +97,10 @@ hr {
   margin-bottom: 7vh;
 }
 
+.row-eboard {
+  padding-bottom: 20px;
+}
+
 .true-center {
   display: flex;
   justify-content: center;
